@@ -58,9 +58,13 @@ PRODUCT_COPY_FILES += \
     vendor/google/walleye/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
     vendor/google/walleye/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/google/walleye/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
-    vendor/google/walleye/proprietary/lib64/librcc.so:system/lib64/librcc.so
-
-PRODUCT_PACKAGES += \
+    vendor/google/walleye/proprietary/lib64/librcc.so:system/lib64/librcc.so \
+   
+   
+    
+   
+   
+   PRODUCT_PACKAGES += \
     EaselServicePrebuilt \
     QtiTelephonyService \
     Tycho \
