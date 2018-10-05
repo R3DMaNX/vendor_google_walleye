@@ -342,6 +342,7 @@ LOCAL_SRC_FILES := proprietary/framework/VerizonUnifiedSettings.jar
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
@@ -352,6 +353,7 @@ LOCAL_SRC_FILES := proprietary/framework/cneapiclient.jar
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
@@ -362,6 +364,7 @@ LOCAL_SRC_FILES := proprietary/framework/com.google.android.camera.experimental2
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
@@ -372,6 +375,7 @@ LOCAL_SRC_FILES := proprietary/framework/com.quicinc.cne.api-V1.0-java.jar
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
@@ -382,6 +386,7 @@ LOCAL_SRC_FILES := proprietary/framework/com.quicinc.cne.jar
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
@@ -392,6 +397,7 @@ LOCAL_SRC_FILES := proprietary/framework/embmslibrary.jar
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
@@ -402,6 +408,7 @@ LOCAL_SRC_FILES := proprietary/framework/qcrilhook.jar
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
@@ -412,6 +419,7 @@ LOCAL_SRC_FILES := proprietary/framework/rcsimssettings.jar
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
