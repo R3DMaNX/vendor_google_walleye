@@ -99,4 +99,5 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne \
     embmslibrary \
     qcrilhook \
-    rcsimssettings
+    rcsimssettings \
+    libdmengine_32.so
